@@ -2,10 +2,8 @@
     "builders": [
         { 
            "type": "amazon-ebs",
-            "access_key": "AKIAYWDAFQGDYRX5KF7Y",
-            "secret_key": "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",
             "region": "ap-south-1",
-            "ami_name": "the_again_ami",
+            "ami_name": "mythe_again_ami",
             "source_ami": "ami-08df646e18b182346",
             "instance_type": "t2.micro",
             "ssh_username": "ec2-user"
